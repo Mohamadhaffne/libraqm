@@ -1,85 +1,128 @@
-Raqm
-====
-
-[![Build](https://github.com/HOST-Oman/libraqm/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/HOST-Oman/libraqm/actions)
-
-Raqm is a small library that encapsulates the logic for complex text layout and
-provides a convenient API.
-
-It currently provides bidirectional text support (using [FriBiDi][1] or
-[SheenBidi][2]), shaping (using [HarfBuzz][3]), and proper script itemization.
-As a result, Raqm can support most writing systems covered by Unicode.
-
-The documentation can be accessed on the web at:
-> https://host-oman.github.io/libraqm/
-
-Raqm (Arabic: رَقْم) is writing, also number or digit and the Arabic word for
-digital (رَقَمِيّ) shares the same root, so it is a play on “digital writing”.
-
-Building
---------
-
-Raqm depends on the following libraries:
-* [FreeType][4]
-* [HarfBuzz][3]
-* [FriBiDi][1] or [SheenBidi][2]
-
-To build the documentation you will also need:
-* [GTK-Doc][5]
-
-To install dependencies on Fedora:
-
-    sudo dnf install freetype-devel harfbuzz-devel fribidi-devel meson gtk-doc
-
-To install dependencies on Ubuntu:
-
-    sudo apt-get install libfreetype6-dev libharfbuzz-dev libfribidi-dev meson gtk-doc-tools
-
-On Mac OS X you can use Homebrew:
-
-    brew install freetype harfbuzz fribidi meson gtk-doc
-    export XML_CATALOG_FILES="/usr/local/etc/xml/catalog" # for the docs
-
-Once you have the source code and the dependencies, you can proceed to build.
-To do that, run the customary sequence of commands in the source code
-directory:
-
-    $ meson build
-    $ ninja -C build
-    $ ninja -C build install
-
-To build the documentation, pass `-Ddocs=true` to the `meson`.
-
-To run the tests:
-
-    $ ninja -C build test
-
-Contributing
-------------
-
-Once you have made a change that you are happy with, contribute it back, we’ll
-be happy to integrate it! Just fork the repository and make a pull request.
-
-Projects using Raqm
--------------------
-
-1. [ImageMagick](https://github.com/ImageMagick/ImageMagick)
-2. [LibGD](https://github.com/libgd/libgd)
-3. [FontView](https://github.com/googlei18n/fontview)
-4. [Pillow](https://github.com/python-pillow)
-5. [mplcairo](https://github.com/anntzer/mplcairo)
-6. [CEGUI](https://github.com/cegui/cegui)
-
-The following projects have patches to support complex text layout using Raqm:
-
-2. SDL_ttf: https://bugzilla.libsdl.org/show_bug.cgi?id=3211
-3. Pygame: https://bitbucket.org/pygame/pygame/pull-requests/52
-4. Blender: https://developer.blender.org/D1809
-
-
-
-[1]: https://github.com/fribidi/fribidi
-[2]: https://github.com/Tehreer/SheenBidi
-[3]: https://github.com/harfbuzz/harfbuzz
-[4]: https://freetype.org/
-[5]: https://www.gtk.org/gtk-doc
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261555671868915%22%3A%22nuxtOWB4%22%2C%22100079517471965%22%3A%22P8PRtYmf%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.977Z",
+        "lastAccessed": "2025-03-09T23:36:05.987Z"
+    },
+    {
+        "key": "datr",
+        "value": "pevMZ7PcMErgXJo-z_HBxaDS",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "sb",
+        "value": "nTXNZ2iBn8yHbSHNN-rMGnv1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B726x384x1.875",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "dpr",
+        "value": "1.875",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "locale",
+        "value": "kn_IN",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "wd",
+        "value": "384x726",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "c_user",
+        "value": "100079517471965",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "fr",
+        "value": "0XRPARN3bXoqI0KZL.AWUAi7XitM2wwrh5SZOOMvQhkB2EuVgF1ofAMg.BnzTWd..AAA.0.0.BnzdgN.AWUbw6Yz_eE",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "xs",
+        "value": "15%3AS6F6uLxDy4LvHA%3A2%3A1741543437%3A-1%3A1087",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101022303%3BT%3A29026053",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2760%3Btimestamp%3A1741563214",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-03-09T23:36:05.988Z",
+        "lastAccessed": "2025-03-09T23:36:05.988Z"
+    }
+]
